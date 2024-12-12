@@ -1,0 +1,38 @@
+/* Wave Background Styling */
+.hero-section,
+.cta-section {
+  position: relative;
+  overflow: hidden;
+}
+
+.wave-svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.hero-content,
+.cta-content {
+  position: relative;
+  z-index: 1;
+}
+
+/* Green Accents */
+.bg-green-50 {
+  background-color: #f0fdf4;
+}
+
+.text-green-700 {
+  color: #047857;
+}
+
+.text-green-600 {
+  color: #059669;
+}
+
+.hover\:bg-green-100:hover {
+  background-color: #d1fae5;
+}
